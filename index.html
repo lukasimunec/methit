@@ -1,261 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Methit</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Luka Š.</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/luka-simunec/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.facebook.com/lukasimunec/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/lukasimunec/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://twitter.com/LSimunec" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-        </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Luka Š.</h1>
-      <p>I'm <span class="typed" data-typed-items="Software Engineer, Full Stack Developer, Java Engineer"></span></p>
-    </div>
-  </section>
-
-  <main id="main">
-
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Highly motivated software engineer with over four years of experience working in the fintech and ICT industry. Strong engineering professional with a Master's degree focused on Software Engineering and Information Systems. Ready for teamwork in challenging and dynamic environments and acquiring new knowledge. Passionate about building secure backend services with a focus on strong customer relationships and increasing customer engagement.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Software Engineer</h3>
-            <p class="fst-italic">
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>4 Dec 1996</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>methit.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Mobile:</strong> <span>+385 91 3033 403</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Zagreb, Croatia</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master of Science in Computing</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>simunec.luka@outlook.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>On demand/per hour</span></li>
-                </ul>
-              </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>METHIT</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Methit</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Početna</a></li>
+                <li class="sidebar-nav-item"><a href="#about">O Nama</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Usluge</a></li>
+                <!--<li class="sidebar-nav-item"><a href="#portfolio">Projekti</a></li>-->
+                <li class="sidebar-nav-item"><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Methit</h1>
+                <h3 class="mb-5"><em>Profesionalna izrada web stranica i aplikacija</em></h3>
+                <a class="btn btn-primary btn-xl" href="#about">Saznaj više</a>
             </div>
-          </br>
-            <h3>Online presence</h3>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://methit.com/assets/cv.pdf" target="_blank">Resume</a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://www.linkedin.com/in/luka-simunec/" target="_blank">LinkedIn</a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://github.com/lukasimunec" target="_blank">Github</a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://www.upwork.com/freelancers/~01e9ff9e12bf1d076e?viewMode=1" target="_blank">Upwork</a></strong></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://www.facebook.com/lukasimunec/" target="_blank">Facebook</a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://www.instagram.com/lukasimunec/" target="_blank">Instagram</a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://twitter.com/LSimunec" target="_blank">Twitter</a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong><a href="https://play.google.com/store/apps/developer?id=Methit" target="_blank">Google Play</a></strong></li>
-                </ul>
-              </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Mladi tim inženjera profesionaliziran za izradu web stranica i aplikacija</h2>
+                        <a class="btn btn-dark btn-xl" href="#services">Što nudimo?</a>
+                    </div>
+                </div>
             </div>
-            <p>
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>Download my full PDF resume <strong><a href="https://methit.com/assets/cv.pdf" target="_blank">here</a></strong></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Software Engineer</h4>
-              <h5>May 2021 - Present</h5>
-              <p><em>Infobip, Zagreb, Croatia</em></p>
-              <ul>
-                <li>Worked in agile environment on developing high availablity, scalable and fault-tolerant microservices in a bigger architecture</li>
-                <li>R&D of microservice for handling sessions, timeouts, passwords, throttling, etc.</li>
-                <li>R&D of microservice for handling resources such as Users, Accounts, Services, Groups and Permissions</li>
-                <li>Resolving issues for clients</li>
-              </ul>
+        </section>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0"></h3>
+                    <h2 class="mb-5">Usluge</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
+                        <h4><strong>Responzivnost</strong></h4>
+                        <p class="text-faded mb-0">Naši proizvodi su prilagođeni za sve tipove uređaja</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <h4><strong>Podrška</strong></h4>
+                        <p class="text-faded mb-0">Efikasna i efektivna podrška za sve klijente</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <h4><strong>Zadovoljni klijenti</strong></h4>
+                        <p class="text-faded mb-0">
+							Više od 10 zadovoljnih klijenata
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <h4><strong>Pitanja</strong></h4>
+                        <p class="text-faded mb-0">Cijena na upit - kontaktirajte nas za više informacija</p>
+                    </div>
+                </div>
             </div>
-            <div class="resume-item">
-              <h4>Associate Software Engineer</h4>
-              <h5>Aug 2020 - May 2021</h5>
-              <p><em>Financial Agency - FINA, Zagreb, Croatia</em></p>
-              <ul>
-                <li>R&D of high-risk billing job</li>
-                <li>Development of web application for bill and invoice exchange</li>
-                <li>Task allocation, code review and mentoring student teams in developing new functionalities for EU projects</li>
-                <li>Helping internal users solve problems, configure and use applications to increase their efficiency</li>
-              </ul>
+        </section>
+		<!--
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Stationary</div>
+                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Ice Cream</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Strawberries</div>
+                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Workspace</div>
+                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="resume-item">
-              <h4>Student Software Developer</h4>
-              <h5>Aug 2017 - Aug 2020</h5>
-              <p><em>Financial Agency - FINA, Zagreb, Croatia</em></p>
-              <ul>
-                <li>R&D of the system (web service, web application, and mobile applications) for providing various company information and services</li>
-                <li>R&D of digital signature validation system</li>
-                <li>Writing of well designed, documented and efficient code</li>
-                <li>Developing web services and source codes used internally and publicly</li>
-                <li>Deploying and documenting new versions of various projects</li>
-              </ul>
+        </section>
+		
+        <section class="content-section bg-primary text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
             </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Science in Computing</h4>
-              <h5>2018 - 2020</h5>
-              <p><em>Faculty of Electrical Engineering and Computing, University of Zagreb</em></p>
-              <p>Field of study: Software Engineering and Information Systems</p>
-              <p>Gradute thesis: Intrusion detection and classification system in IoT environment</p>
+        </section>
+		
+        <div class="map" id="contact">
+            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+        </div>-->
+		
+        <footer class="footer text-center" id="contact">
+            <div class="container px-4 px-lg-5">
+				<span>Kontakt <br/><a href="mailto:simunec.luka@outlook.com">simunec.luka@outlook.com</a></span>
+                <!--<ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>-->
+                <br/><br/>
+                <p class="text-muted small mb-0">&copy; Methit 2021</p>
             </div>
-            <div class="resume-item">
-              <h4>Bachelor of Science in Computing</h4>
-              <h5>2015 - 2018</h5>
-              <p><em>Faculty of Electrical Engineering and Computing, University of Zagreb</em></p>
-              <p>Field of study: Computing</p>
-              <p>Undergradute thesis: <a href="https://repozitorij.fer.unizg.hr/en/islandora/object/fer%3A4113" target="_blank">Protecting Data Leakage of Named Entities in Croatian Language</a></p>
-            </div>
-            <div class="resume-item">
-              <h4>High School Diploma</h4>
-              <h5>2011 - 2015</h5>
-              <p><em>Gymnasium Lucijana Vranjanina</em></p>
-              <p>Field of study: Natural sciences and Mathematics</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>simunec.luka@outlook.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+385 91 3033 403</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>METHIT</span></strong>
-      </div>
-    </div>
-  </footer>
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
